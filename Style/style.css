@@ -1,0 +1,131 @@
+body{
+    margin:0px;
+}
+
+
+.layout{
+   
+    font-family: sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+    
+      
+    
+    .Header{
+      
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    .Title{
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    
+    .footer-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+    background-color:lightgray;
+    padding: 10px;
+    justify-content: flex-start;
+    border-bottom: 1px solid darkgray;
+    }
+    
+    .footer-sub{
+    
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 0;
+    /* padding:0px; */
+    height: 40px;
+    background-color: lightgrey;
+    }
+    
+    .footer-left{
+    
+      color:gray;
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+      margin: 10px;
+    }
+    
+    .footer-ryt{
+        color:gray;
+      display: flex;
+      flex-direction: row;
+      justify-content:right;
+      margin:10px;
+    }
+    
+    .heading{
+      font-weight: 55;
+        font-size: 50;
+        
+    }
+    
+    .Button{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding:10px;
+    }
+    
+    .Gmail{
+    
+      padding: 10px;
+    }
+
+    .image{
+        height:100;
+        width:200;
+    }
+
+    .Footer{
+        margin-top: auto;
+    }
+
+    .language{
+        padding: 2px;
+    }
+
+    .text{
+
+        border-radius: 15px; 
+        width: 345px;
+        height: 30px;
+    }
+
+    .button-append{
+        margin: 5px;
+        padding: 5px;
+        color:gray;
+        border: none;
+    }
+
+    .button-prepend{
+
+        margin: 5px;
+        padding: 5px;
+        color:gray;
+        border: none;
+    }
+
+    .abc{
+        display: flex;
+        flex-direction: row;
+        margin:10px;
+    }
