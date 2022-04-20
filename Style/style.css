@@ -9,7 +9,9 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
+
     
       
     
@@ -20,6 +22,7 @@ body{
         flex-direction: row;
         align-items: center;
         margin: 5px;
+        padding: 5px;
     }
     
     .Title{
@@ -95,7 +98,7 @@ body{
     }
 
     .Footer{
-        margin-top: auto;
+        /* margin-top: auto; */
     }
 
     .language{
@@ -107,6 +110,8 @@ body{
         border-radius: 15px; 
         width: 345px;
         height: 30px;
+        color:lightgrey;
+        border: 1px solid lightgrey;
     }
 
     .button-append{
@@ -129,3 +134,16 @@ body{
         flex-direction: row;
         margin:10px;
     }
+    /* .icon i {
+        position: absolute;
+    } */
+    
+    /* .ab i{
+        font-size:24px;
+         border-radius: 15px;
+         margin: 2px;
+        padding: 2px;
+        color:orangered;
+        border: none;
+        border-radius: 50%;
+    } */
